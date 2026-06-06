@@ -29,14 +29,14 @@ LD_LIBRARY_PATH=
 # if that device isn't going to be used. The .so files are broken out
 # into device-specific packages (eg, ka9q-radio-rx888) and the library
 # dependency is enforced when those packages are installed.
-ENABLE_AIRSPY   ?= 1
-ENABLE_AIRSPYHF ?= 1
-ENABLE_BLADERF  ?= 1
+ENABLE_AIRSPY   ?= 0
+ENABLE_AIRSPYHF ?= 0
+ENABLE_BLADERF  ?= 0
 ENABLE_FOBOS    ?= 1
-ENABLE_FUNCUBE  ?= 1
-ENABLE_HACKRF   ?= 1
-ENABLE_HYDRASDR ?= 1
-ENABLE_RTLSDR   ?= 1
+ENABLE_FUNCUBE  ?= 0
+ENABLE_HACKRF   ?= 0
+ENABLE_HYDRASDR ?= 0
+ENABLE_RTLSDR   ?= 0
 ENABLE_RX888    ?= 1
 ENABLE_SDRPLAY  ?= 0  # this is the really problematic one: proprietary API
 ENABLE_SIG_GEN  ?= 1
